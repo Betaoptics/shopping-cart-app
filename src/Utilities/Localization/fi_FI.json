@@ -1,0 +1,445 @@
+{
+    "navbar": {
+        "text": {
+            "language": "Kieli",
+            "isApp": "Tämä on sovellus"
+        },
+        "button": {
+            "logout": "Kirjaudu ulos"
+        }
+    },
+    "login": {
+        "text": {
+            "title": "Kirjaudu",
+            "email": "Sähköposti",
+            "username": "Käyttäjä tunnus",
+            "password": "Salasana",
+            "salts": "Sinun uusi suolasi: ",
+            "saveSalts": "Tallenna tämä Suola kirjautuessasi sisään",
+            "uponRefresh": "jos päivität sivun, tämä generoi uuden SUOLAN!!!"
+        },
+        "button": {
+            "login": "Kirjaudu"
+        }
+    },
+    "register": { 
+        "text": {
+            "notRegistered": "Etkö ole jo rekisteröitynyt?"
+        },
+        "button": {
+            "register": "Rekisteröidy"
+        }
+    },
+    "frontpage": {
+        "text": {
+            "welcome": "Tervetuloa etusivulle"
+        }
+    },
+    "generic": {
+        "button": {
+            "loadMore": "Lataa lisää",
+            "edit": "Muokkaa",
+            "close": "Sulje",
+            "saveChanges": "Tallenna muutokset",
+            "save": "Tallenna"
+        },
+        "message": {
+            "failedFetch": "Yhteys backend epäonnistui",
+            "subjectFail": "Aiheiden hakeminen artikkelille epäonnistui",
+            "tagFailed": "Tagien hakeminen artikkelille epäonnistui",
+            "unknown": "Tuntematon"
+        }
+    },
+    "products": [
+        {
+            "id": 1,
+            "productType": "Leipä",
+            "productName": "BrandBread",
+            "useAmountPerDay": 1,
+            "calories": 1203,
+            "sizeinKG": 0.4,
+            "priceOfProduct": 4.99,
+            "boughtDate": "1.1.2022",
+            "lastUseDate": "1.1.2022",
+            "selected": false,
+            "count": "0"
+        },
+        {
+            "id": 2,
+            "productType": "Leipä",
+            "productName": "BrandBread",
+            "useAmountPerDay": 1,
+            "calories": 1203,
+            "sizeinKG": 0.4,
+            "priceOfProduct": 4.99,
+            "boughtDate": "1.1.2022",
+            "lastUseDate": "1.1.2022",
+            "selected": false,
+            "count": "0"
+        },
+        {
+            "id": 3,
+            "productType": "Leipä",
+            "productName": "BrandBread",
+            "useAmountPerDay": 1,
+            "calories": 1203,
+            "sizeinKG": 0.4,
+            "priceOfProduct": 4.99,
+            "boughtDate": "1.1.2022",
+            "lastUseDate": "1.1.2022",
+            "selected": false,
+            "count": "0"
+        },
+        {
+            "id": 4,
+            "productType": "Drink",
+            "productName": "BrandBread",
+            "useAmountPerDay": 1,
+            "calories": 1203,
+            "sizeinKG": 0.4,
+            "priceOfProduct": 4.99,
+            "boughtDate": "1.1.2022",
+            "lastUseDate": "1.1.2022",
+            "selected": false,
+            "count": "0"
+        },
+        {
+            "id": 5,
+            "productType": "Drink",
+            "productName": "BrandBread",
+            "useAmountPerDay": 1,
+            "calories": 1203,
+            "sizeinKG": 0.4,
+            "priceOfProduct": 4.99,
+            "boughtDate": "1.1.2022",
+            "lastUseDate": "1.1.2022",
+            "selected": false,
+            "count": "0"
+        },
+        {
+            "id": 6,
+            "productType": "Drink",
+            "productName": "BrandBread",
+            "useAmountPerDay": 1,
+            "calories": 1203,
+            "sizeinKG": 0.4,
+            "priceOfProduct": 4.99,
+            "boughtDate": "1.1.2022",
+            "lastUseDate": "1.1.2022",
+            "selected": false,
+            "count": "0"
+        },
+        {
+            "id": 7,
+            "productType": "Meat",
+            "productName": "BrandBread",
+            "useAmountPerDay": 1,
+            "calories": 1203,
+            "sizeinKG": 0.4,
+            "priceOfProduct": 4.99,
+            "boughtDate": "1.1.2022",
+            "lastUseDate": "1.1.2022",
+            "selected": false,
+            "count": "0"
+        },
+        {
+            "id": 8,
+            "productType": "Meat",
+            "productName": "BrandBread",
+            "useAmountPerDay": 1,
+            "calories": 1203,
+            "sizeinKG": 0.4,
+            "priceOfProduct": 4.99,
+            "boughtDate": "1.1.2022",
+            "lastUseDate": "1.1.2022",
+            "selected": false,
+            "count": "0"
+        },
+        {
+            "id": 9,
+            "productType": "Meat",
+            "productName": "BrandBread",
+            "useAmountPerDay": 1,
+            "calories": 1203,
+            "sizeinKG": 0.4,
+            "priceOfProduct": 4.99,
+            "boughtDate": "1.1.2022",
+            "lastUseDate": "1.1.2022",
+            "selected": false,
+            "count": "0"
+        },
+        {
+            "id": 10,
+            "productType": "Toppings",
+            "productName": "BrandBread",
+            "useAmountPerDay": 1,
+            "calories": 1203,
+            "sizeinKG": 0.4,
+            "priceOfProduct": 4.99,
+            "boughtDate": "1.1.2022",
+            "lastUseDate": "1.1.2022",
+            "selected": false,
+            "count": "0"
+        },
+        {
+            "id": 11,
+            "productType": "Toppings",
+            "productName": "BrandBread",
+            "useAmountPerDay": 1,
+            "calories": 1203,
+            "sizeinKG": 0.4,
+            "priceOfProduct": 4.99,
+            "boughtDate": "1.1.2022",
+            "lastUseDate": "1.1.2022",
+            "selected": false,
+            "count": "0"
+        },
+        {
+            "id": 12,
+            "productType": "Toppings",
+            "productName": "BrandBread",
+            "useAmountPerDay": 1,
+            "calories": 1203,
+            "sizeinKG": 0.4,
+            "priceOfProduct": 4.99,
+            "boughtDate": "1.1.2022",
+            "lastUseDate": "1.1.2022",
+            "selected": false,
+            "count": "0"
+        },
+        {
+            "id": 13,
+            "productType": "FastFood",
+            "productName": "BrandBread",
+            "useAmountPerDay": 1,
+            "calories": 1203,
+            "sizeinKG": 0.4,
+            "priceOfProduct": 4.99,
+            "boughtDate": "1.1.2022",
+            "lastUseDate": "1.1.2022",
+            "selected": false,
+            "count": "0"
+        },
+        {
+            "id": 14,
+            "productType": "FastFood",
+            "productName": "BrandBread",
+            "useAmountPerDay": 1,
+            "calories": 1203,
+            "sizeinKG": 0.4,
+            "priceOfProduct": 4.99,
+            "boughtDate": "1.1.2022",
+            "lastUseDate": "1.1.2022",
+            "selected": false,
+            "count": "0"
+        },
+        {
+            "id": 15,
+            "productType": "FastFood",
+            "productName": "BrandBread",
+            "useAmountPerDay": 1,
+            "calories": 1203,
+            "sizeinKG": 0.4,
+            "priceOfProduct": 4.99,
+            "boughtDate": "1.1.2022",
+            "lastUseDate": "1.1.2022",
+            "selected": false,
+            "count": "0"
+        },
+        {
+            "id": 16,
+            "productType": "Cheese",
+            "productName": "BrandBread",
+            "useAmountPerDay": 1,
+            "calories": 1203,
+            "sizeinKG": 0.4,
+            "priceOfProduct": 4.99,
+            "boughtDate": "1.1.2022",
+            "lastUseDate": "1.1.2022",
+            "selected": false,
+            "count": "0"
+        },
+        {
+            "id": 17,
+            "productType": "Cheese",
+            "productName": "BrandBread",
+            "useAmountPerDay": 1,
+            "calories": 1203,
+            "sizeinKG": 0.4,
+            "priceOfProduct": 4.99,
+            "boughtDate": "1.1.2022",
+            "lastUseDate": "1.1.2022",
+            "selected": false,
+            "count": "0"
+        },
+        {
+            "id": 18,
+            "productType": "Cheese",
+            "productName": "BrandBread",
+            "useAmountPerDay": 1,
+            "calories": 1203,
+            "sizeinKG": 0.4,
+            "priceOfProduct": 4.99,
+            "boughtDate": "1.1.2022",
+            "lastUseDate": "1.1.2022",
+            "selected": false,
+            "count": "0"
+        },
+        {
+            "id": 19,
+            "productType": "Candy",
+            "productName": "BrandBread",
+            "useAmountPerDay": 1,
+            "calories": 1203,
+            "sizeinKG": 0.4,
+            "priceOfProduct": 4.99,
+            "boughtDate": "1.1.2022",
+            "lastUseDate": "1.1.2022",
+            "selected": false,
+            "count": "0"
+        },
+        {
+            "id": 20,
+            "productType": "Candy",
+            "productName": "BrandBread",
+            "useAmountPerDay": 1,
+            "calories": 1203,
+            "sizeinKG": 0.4,
+            "priceOfProduct": 4.99,
+            "boughtDate": "1.1.2022",
+            "lastUseDate": "1.1.2022",
+            "selected": false,
+            "count": "0"
+        },
+        {
+            "id": 21,
+            "productType": "Candy",
+            "productName": "BrandBread",
+            "useAmountPerDay": 1,
+            "calories": 1203,
+            "sizeinKG": 0.4,
+            "priceOfProduct": 4.99,
+            "boughtDate": "1.1.2022",
+            "lastUseDate": "1.1.2022",
+            "selected": false,
+            "count": "0"
+        },
+        {
+            "id": 22,
+            "productType": "Vegetables",
+            "productName": "BrandBread",
+            "useAmountPerDay": 1,
+            "calories": 1203,
+            "sizeinKG": 0.4,
+            "priceOfProduct": 4.99,
+            "boughtDate": "1.1.2022",
+            "lastUseDate": "1.1.2022",
+            "selected": false,
+            "count": "0"
+        },
+        {
+            "id": 23,
+            "productType": "Vegetables",
+            "productName": "BrandBread",
+            "useAmountPerDay": 1,
+            "calories": 1203,
+            "sizeinKG": 0.4,
+            "priceOfProduct": 4.99,
+            "boughtDate": "1.1.2022",
+            "lastUseDate": "1.1.2022",
+            "selected": false,
+            "count": "0"
+        },
+        {
+            "id": 24,
+            "productType": "Vegetables",
+            "productName": "BrandBread",
+            "useAmountPerDay": 1,
+            "calories": 1203,
+            "sizeinKG": 0.4,
+            "priceOfProduct": 4.99,
+            "boughtDate": "1.1.2022",
+            "lastUseDate": "1.1.2022",
+            "selected": false,
+            "count": "0"
+        },
+        {
+            "id": 25,
+            "productType": "Spice",
+            "productName": "BrandBread",
+            "useAmountPerDay": 1,
+            "calories": 1203,
+            "sizeinKG": 0.4,
+            "priceOfProduct": 4.99,
+            "boughtDate": "1.1.2022",
+            "lastUseDate": "1.1.2022",
+            "selected": false,
+            "count": "0"
+        },
+        {
+            "id": 26,
+            "productType": "Spice",
+            "productName": "BrandBread",
+            "useAmountPerDay": 1,
+            "calories": 1203,
+            "sizeinKG": 0.4,
+            "priceOfProduct": 4.99,
+            "boughtDate": "1.1.2022",
+            "lastUseDate": "1.1.2022",
+            "selected": false,
+            "count": "0"
+        },
+        {
+            "id": 27,
+            "productType": "Spice",
+            "productName": "BrandBread",
+            "useAmountPerDay": 1,
+            "calories": 1203,
+            "sizeinKG": 0.4,
+            "priceOfProduct": 4.99,
+            "boughtDate": "1.1.2022",
+            "lastUseDate": "1.1.2022",
+            "selected": false,
+            "count": "0"
+        },
+        {
+            "id": 28,
+            "productType": "Hygeine",
+            "productName": "BrandBread",
+            "useAmountPerDay": 1,
+            "calories": 1203,
+            "sizeinKG": 0.4,
+            "priceOfProduct": 4.99,
+            "boughtDate": "1.1.2022",
+            "lastUseDate": "1.1.2022",
+            "selected": false,
+            "count": "0"
+        },
+        {
+            "id": 29,
+            "productType": "Hygeine",
+            "productName": "BrandBread",
+            "useAmountPerDay": 1,
+            "calories": 1203,
+            "sizeinKG": 0.4,
+            "priceOfProduct": 4.99,
+            "boughtDate": "1.1.2022",
+            "lastUseDate": "1.1.2022",
+            "selected": false,
+            "count": "0"
+        },
+        {
+            "id": 30,
+            "productType": "Hygeine",
+            "productName": "BrandBread",
+            "useAmountPerDay": 1,
+            "calories": 1203,
+            "sizeinKG": 0.4,
+            "priceOfProduct": 4.99,
+            "boughtDate": "1.1.2022",
+            "lastUseDate": "1.1.2022",
+            "selected": false,
+            "count": "0"
+        }
+    ]
+}
