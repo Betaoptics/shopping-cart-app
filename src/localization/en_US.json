@@ -1,0 +1,77 @@
+{
+    "navbar": {
+        "text": {
+            "language": "Language",
+            "isApp": "This is App",
+            "home": "Home",
+            "settings": "Settings",
+            "search": "Search",
+            "action": "Action",
+            "anotherAction": "Another action",
+            "someElse": "Something else here"
+        },
+        "button": {
+            "logout": "Logout"
+        }
+    },
+    "login": {
+        "text": {
+            "title": "Login",
+            "email": "Email",
+            "username": "User name",
+            "password": "Password",
+            "salts": "Your new salt: ",
+            "saveSalts": "Save this Salt, UPON sign up",
+            "uponRefresh": "if you refresh it will generate a new SALT!!!"
+        },
+        "button": {
+            "login": "Login"
+        }
+    },
+    "register": {
+        "text": {
+            "notRegistered": "Not registered yet?"
+        },
+        "button": {
+            "register": "Register"
+        }
+    },
+    "frontpage": {
+        "text": {
+            "catalog": "Catalog"
+        }
+    },
+    "generic": {
+        "button": {
+            "loadMore": "Load More",
+            "edit": "Edit",
+            "close": "Close",
+            "saveChanges": "Save Changes",
+            "save": "Save"
+        },
+        "message": {
+            "failedFetch": "Connection to backend failed",
+            "subjectFail": "Getting subjects for article failed",
+            "tagFailed": "Fetching tag for article failed",
+            "unknown": "Unknown"
+        }
+    },
+    "datagrid": {
+        "boughtDate": "Bought Date"
+    },
+    "products": {
+        "bread": "Bread",
+        "drink": "Drink",
+        "meat": "Meat",
+        "fastfood": "FastFood",
+        "cheese": "Cheese",
+        "topping": "Toppings",
+        "candy": "Candy",
+        "spice": "Spice",
+        "vegetable": "Vegetables",
+        "hygeine": "Hygeine",
+        "type": {
+            "bread": "Brand Bread"
+        }
+    }
+}

@@ -1,25 +1,31 @@
+import './index.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import 'bootstrap/dist/css/bootstrap.min.css';
 
-//import language localization files
-import en_US from "./Utilities/Localization/en_US.json";
-import fi_FI from "./Utilities/Localization/fi_FI.json";
-
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import i18next from "i18next";
-import { I18nextProvider } from 'react-i18next';
+// Redux libraries
+import { store } from './redux/store/store';
 import { Provider } from 'react-redux';
-import store from './Redux/store/store';
-import Frontpage from './Components/Frontpage';
-import Login from './Components/Forms/Login';
-import FetchData from './Components/FetchData/FetchData';
-import MainFormView from './Components/Forms/ItemListForm/MainFormView';
-import Navigation from './Utilities/Controllers/Navigation';
+import { disableReactDevTools } from '@fvilers/disable-react-devtools';
 
+// Router
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
+// Language localization files
+import { I18nextProvider } from 'react-i18next';
+import i18next from "i18next";
+import en_US from "./localization/en_US.json";
+import fi_FI from "./localization/fi_FI.json";
+
+// Custom components
+import HistoryWrapper from './directories/Frontend/components/history/historyWrapper';
+
+// Disable dev tools in production
+if (process.env.NODE_ENV === 'production') disableReactDevTools();
+
+// Initialize language localization features
 i18next.init({
   interpolation: { escapeValue: false },
   lng: localStorage.getItem("localization") || "en_US",
@@ -31,7 +37,7 @@ i18next.init({
       main: fi_FI
     },
   },
-})
+});
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -40,17 +46,11 @@ root.render(
       <I18nextProvider i18n={i18next}>
         <BrowserRouter>
           <Routes>
-            <Route path="/" element={<Navigation/>}></Route>
-            <Route path="login" index element={<Login/>}></Route>
-            <Route path="app" element={<App/>}></Route>
-            <Route path="frontpage" element={<Frontpage/>}></Route>
+            <Route path="/*" element={<App />} />
+            <Route path="history" element={<HistoryWrapper key={`app-history`} />}></Route>
             {/*Setting the path to * will act as a catch-all for any undefined URLs. This is great for a 404 error page.
             Source: https://www.w3schools.com/react/react_router.asp */}
           </Routes>
-          <App />
-          <Login/>
-          <FetchData/>
-          <MainFormView/>
         </BrowserRouter>
       </I18nextProvider>
     </Provider>

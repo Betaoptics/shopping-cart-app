@@ -1,0 +1,77 @@
+{
+    "navbar": {
+        "text": {
+            "language": "Kieli",
+            "isApp": "Tämä on sovellus",
+            "home": "Koti",
+            "settings": "Asetukset",
+            "search": "Etsi",
+            "action": "Toimenpide",
+            "anotherAction": "Toinen Toimenpide",
+            "someElse": "Jotain muuta tähän"
+        },
+        "button": {
+            "logout": "Kirjaudu ulos"
+        }
+    },
+    "login": {
+        "text": {
+            "title": "Kirjaudu",
+            "email": "Sähköposti",
+            "username": "Käyttäjä tunnus",
+            "password": "Salasana",
+            "salts": "Sinun uusi suolasi: ",
+            "saveSalts": "Tallenna tämä Suola kirjautuessasi sisään",
+            "uponRefresh": "jos päivität sivun, tämä generoi uuden SUOLAN!!!"
+        },
+        "button": {
+            "login": "Kirjaudu"
+        }
+    },
+    "register": { 
+        "text": {
+            "notRegistered": "Etkö ole jo rekisteröitynyt?"
+        },
+        "button": {
+            "register": "Rekisteröidy"
+        }
+    },
+    "frontpage": {
+        "text": {
+            "catalog": "Katalogi"
+        }
+    },
+    "generic": {
+        "button": {
+            "loadMore": "Lataa lisää",
+            "edit": "Muokkaa",
+            "close": "Sulje",
+            "saveChanges": "Tallenna muutokset",
+            "save": "Tallenna"
+        },
+        "message": {
+            "failedFetch": "Yhteys backend epäonnistui",
+            "subjectFail": "Aiheiden hakeminen artikkelille epäonnistui",
+            "tagFailed": "Tagien hakeminen artikkelille epäonnistui",
+            "unknown": "Tuntematon"
+        }
+    },
+    "datagrid": {
+        "boughtDate": "Ostos päivä"
+    },
+    "products": {
+        "bread": "Leipä",
+        "drink": "Juoma",
+        "meat": "Liha",
+        "fastfood": "Roska ruoka",
+        "cheese": "Juusto",
+        "topping": "Päällysteet",
+        "candy": "Makeiset",
+        "spice": "Mausteet",
+        "vegetable": "Vihangekset",
+        "hygeine": "Hygeinia",
+        "type": {
+            "bread": "Brändi leipä"
+        }
+    }
+}

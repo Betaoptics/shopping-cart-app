@@ -1,0 +1,12 @@
+/* ag-theme-acmecorp.css */
+.ag-theme-acmecorp {
+  --ag-odd-row-background-color: #f1f1f1;
+}
+
+.ag-theme-red-foreground {
+  --ag-foreground-color: rgb(255, 0, 0);
+}
+
+.ag-theme-green-foreground {
+  --ag-foreground-color: rgb(6, 187, 0);
+}
